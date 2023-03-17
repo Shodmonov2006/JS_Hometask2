@@ -159,14 +159,14 @@
 
 //task11
 
-function repeat(a, b){
-    if(b==1){
-        return a
-    }
+// function repeat(a, b){
+//     if(b==1){
+//         return a
+//     }
     
-    return a+repeat(b-1)
-}
-console.log(repeat('asd',3))
+//     return a+repeat(b-1)
+// }
+// console.log(repeat('asd',3))
 
 
 //task12

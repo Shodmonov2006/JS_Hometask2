@@ -145,7 +145,7 @@
 //     let cnt=0
 //     x=a%10
 //     x1=a/10%10
-//     x2=a/100%10
+//     x2=Math.floor(a/100)
 //     cnt=x*x1*x2
 //     if(cnt>=100){
 //         return true
@@ -159,14 +159,14 @@
 
 //task11
 
-// function repeat(a, b){
-//     if(b==1){
-//         return a
-//     }
+function repeat(a, b){
+    if(b==1){
+        return a
+    }
     
-//     return a+repeat(b-1)
-// }
-// console.log(repeat('asd',3))
+    return a+repeat(b-1)
+}
+console.log(repeat('asd',3))
 
 
 //task12
